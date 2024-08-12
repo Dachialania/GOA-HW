@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colored Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:nth-child(odd) {
+            background-color: #fff;
+        }
+        .color1 { background-color: #ff9999; }
+        .color2 { background-color: #99ff99; }
+        .color3 { background-color: #9999ff; }
+        .color4 { background-color: #ffff99; }
+        .color5 { background-color: #ffcc99; }
+        .color6 { background-color: #c2c2f0; }
+        .color7 { background-color: #ffb3e6; }
+        .color8 { background-color: #b3ffb3; }
+        .color9 { background-color: #b3e6ff; }
+        .color10 { background-color: #c4e17f; }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="color1"><td>1</td><td>Data 1</td></tr>
+            <tr class="color2"><td>2</td><td>Data 2</td></tr>
+            <tr class="color3"><td>3</td><td>Data 3</td></tr>
+            <tr class="color4"><td>4</td><td>Data 4</td></tr>
+            <tr class="color5"><td>5</td><td>Data 5</td></tr>
+            <tr class="color6"><td>6</td><td>Data 6</td></tr>
+            <tr class="color7"><td>7</td><td>Data 7</td></tr>
+            <tr class="color8"><td>8</td><td>Data 8</td></tr>
+            <tr class="color9"><td>9</td><td>Data 9</td></tr>
+            <tr class="color10"><td>10</td><td>Data 10</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
