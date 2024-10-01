@@ -6,6 +6,6 @@ age="and i am 15 years old"
 
 country="i live in georgia"
 
-hobby="my hobby is reading a book"
 
-print(name + " " + last_name + " " + age + " " + country + " " + hobby)
+
+print(name + " " + last_name + " " + age + " " + country )
