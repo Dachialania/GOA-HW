@@ -1,10 +1,10 @@
-name=" hello,my name is dachi"
+name = " hello,my name is dachi"
 
-last_name="my last_name is alania"
+last_name = "my last_name is alania"
 
-age="and i am 15 years old"
+age = "and i am 15 years old"
 
-country="i live in georgia"
+country = "i live in georgia"
 
 
 
