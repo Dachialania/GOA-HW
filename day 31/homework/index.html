@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>მედია გვერდი</title>
+</head>
+<body>
+    <h1>ვიდეო და აუდიო მედია</h1>
+
+    <!-- ვიდეო სექცია -->
+    <h2>ვიდეო</h2>
+    <video autoplay loop muted controls>
+        <!-- ავტოპლეი: ვიდეო დაიწყო ავტომატურად
+             ლუპი: ვიდეო დაიწყება თავიდან როცა დასრულდება
+             მუტედ: ვიდეო არ აქვს ხმა -->
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.webm" type="video/webm">
+        <source src="video.ogv" type="video/ogv">
+        <p>თქვენი ბრაუზერი არ უჭერს მხარს ვიდეოს.</p>
+    </video>
+
+    <!-- აუდიო სექცია -->
+    <h2>აუდიო</h2>
+    <audio autoplay loop muted controls>
+        <!-- ავტოპლეი: აუდიო იწყება ავტომატურად
+             ლუპი: აუდიო დაიწყება თავიდან როცა დასრულდება
+             მუტედ: აუდიო არ აქვს ხმა -->
+        <source src="audio.mp3" type="audio/mp3">
+        <source src="audio.ogg" type="audio/ogg">
+        <source src="audio.wav" type="audio/wav">
+        <p>თქვენი ბრაუზერი არ უჭერს მხარს აუდიოს.</p>
+    </audio>
+
+</body>
+</html>
