@@ -61,3 +61,4 @@
 # C = farengeith - 32 
 # C1 = farengeith / 0.5
 # print(C1)
+# print(type(3.0))
