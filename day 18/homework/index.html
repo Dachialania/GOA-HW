@@ -1,0 +1,58 @@
+<!-- 2) კომენტარის სახით ჩამოწერეთ ყველა თეგი, რომელიც Drop-Down Menu-ს შექმნისთვის არის საჭირო. თითოეულს მიუწერეთ განმარტებაც.
+ 1)<select> "select" - არის container tag რომელშიც თავსდება "option" თეგი. "option" თეგი იმდენ არჩევანს აკეთებს რამდენის არჩევა გვექნება, ჩვენ ეს ყველაფერი შეგვიძლია "form" თეგში შევიტანოთ "form" თეგი რომელშიც თავსდება ყველა ფორმის შემადგენელი ელემენტი.
+       <option></option>
+ </select>  
+
+3) Level 15-ის დავალებას დაამატეთ Drop-Down Menu, სადაც მომხმარებელს შეეძლება მიუთითოს მისი სქესი. წინა დავალების პირობა: 
+
+შექმენით Facebook-ის სარეგისტრაციო ფორმა და დაამატეთ Username, Email, Password ველები. დამატებით დაამატეთ Checkbox-ები, სადაც მომხმარებელს შეეძლება მონიშნოს:
+• I am not a bot.
+• I agree to the Terms & Conditions.
+• Keep me signed in. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        
+        <i>
+           <b>
+        <u><label for="username">Enter your username: </label></u><br>
+        <input type="username" placeholder="username" id="username" name="username" value="visitor_man"><br><br>
+
+        <u><label for="email">Enter your email: </label></u><br>
+        <input type="email" placeholder="email" id="email" name="email"><br><br>
+
+        <u><label for="password">Enter your password: </label></u><br>
+        <input type="password" placeholder="password " id="password" name="password"><br><br>
+        
+        </b>
+        </i>
+
+        <u><label for="date">Enter your birthday: </label></u><br>
+        <input type="date" id="date"><br><br>
+
+        <select name="Gender" id="select">
+            <option value="M">male</option>
+            <option value="F">female</option>           
+        </select><br><br>
+
+        <input type="checkbox" name="notbot" id="notbot">
+        <label for="notbot">i am not bot</label><br>
+
+        <input type="checkbox" name="terms" id="terms">
+        <label for="terms">I agree to the Terms & Conditions.</label><br>
+
+        <input type="checkbox" name="Keep me signed in." id="Keep me signed in.">
+        <label for="Keep me signed in.">Keep me signed in.</label><br>
+
+        <input type="submit" id="submit" >
+    </form>
+</body>
+</html>

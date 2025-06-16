@@ -1,0 +1,58 @@
+<!-- შექმენით ფორმა, რომლის საშუალებითაც მომხმარებელი ტაქსის გამოიძახებს. ფორმა ასეთი ტიპის უნდა იყოს:
+
+მომხმარებელს უნდა შეეძლოს თავისი სახელისა და გვარის მითითება, ასევე მობილურის ნომერის შეყვანა. საიტზე ასევე დაამატეთ Input-ის ველი, სადაც მომხმარებელმა უნდა შემოიტანოს ის მისამართი, სადაც სურს წასვლა და დრო - თუ რომელი საათისთვის სურს ტაქსის შეკვეთა. 
+ფორმის ბოლოს დაამატეთ ერთი ტექსტური ველი, სადაც User-ი დაწერს შეფასებას ანუ reviews.
+
+(ფორმაში თქვენი ფანტაზიით დაამატეთ განსხვავებული Input-ის ტიპები. მაგ. checkbox, radio...) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>ტაქსის გამოძახების სტრუქტურა </h2>
+    <form>
+        <u>
+            <i>
+               <b>
+                <label for="username">შეიყვანეთ თქვენი სახელი: </label><br>
+                <input type="username" placeholder="username" id="username" name="username" value="visitor_man"><br><br>
+
+                <label for="lastname">შეიყვანეთ თქვენი გვარი: </label><br>
+                <input type="lastname" placeholder="lastname" id="lastname" name="lastname" ><br><br>
+
+                <label for="phone">შეიყვანეთ თქვენი ნომერი: </label><br>
+                <input type="phone" placeholder="+995" id="phone"><br><br>
+
+                <label for="time">რომელ საათზე გსურთ ტაქსის გამოძახება? </label><br>
+                <input type="time" id="time" name="time"><br><br>
+
+                <p>აირჩიეთ რომლით გსურთ მგზავრობა</p>
+
+                 <input type="radio" id="eco" name="cartype" value="ეკონომი" checked>
+                 <label for="eco">ეკონომი</label><br>
+                 <input type="radio" id="comfort" name="cartype" value="კომფორტი">
+                 <label for="comfort">კომფორტი</label><br>
+                 <input type="radio" id="van" name="cartype" value="ვენი">
+                 <label for="van">ვენი (მინივენი)</label><br><br>
+
+                 <label for="select1">choose the gender</label><br>
+
+                 <select name="gender" id="select1">
+                    <option value="M">male </option>
+                    <option value="F">female </option>
+                    <option value="none" >none gender</option>
+                 </select>
+                 <br><br>
+
+                 <input type="submit" value="submit">
+
+               </b>       
+            </i>
+        </u>
+    </form>
+</body>
+</html>

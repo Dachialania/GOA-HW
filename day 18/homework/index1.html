@@ -1,0 +1,65 @@
+<!-- 
+4) შექმენით Goa-ს კურსების სარეგისტრაციო ფორმა, დაამატეთ შემდეგი Input-ები:
+• სახელი და გვარი
+• ასაკი
+• მშობლის სახელი და გვარი
+• მშობლის ტელეფონის ნომერი
+• მოსწავლეს შეეძლოს იმის არჩევა, თუ რომელ კურსზე დარეგისტრირდება -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Goa course registration form.</h2>
+     <b>
+    <label for="username">Enter your username: </label><br>
+    <input type="text" name="username" id="username" placeholder="Enter your username" value="visitor_man"><br><br>
+
+    <label for="lastname">Enter your lastname: </label><br>
+    <input type="text" name="lastname" id="lastname" placeholder="Enter your lastname" ><br><br>
+
+    <label for="age">Enter your age: </label><br>
+    <input type="number" name="age" id="age" placeholder="Enter your age" value="age"><br><br>
+
+    <label for="number">Enter your number: </label><br>
+    <input type="tel" name="number" id="number" placeholder="+995" ><br><br>
+
+    <label for="number">Enter your personal number: </label><br>
+    <input type="tel" name="number" id="number" placeholder="Enter your personal number" ><br><br>
+
+    <label for="Parent's name">Enter your parent's name: </label><br>
+    <input type="text" name="parent's name" id="parent's name" placeholder="Enter your parent's name " ><br><br>
+
+    <label for="parent's surnam">Enter your parent's surname</label><br>
+    <input type="text" name="parent's surname" id="parent's surname" placeholder="Enter your parent's surname" ><br><br>
+
+    <label for="parent's number">Enter your parent's number: </label><br>
+    <input type="tel" name="number" id="parent's number" placeholder="+995 Enter your parent's number" ><br><br>
+
+    <label for="parent's presonal number">Enter your parent's personnal number: </label><br>
+    <input type="tel" name="parent's personal number" id="parent's personal number" placeholder="Enter your parent's personnal number"><br><br>
+
+    <label for="select1">select your gender: </label><br>
+    <select name="gender" id="select1">
+        <option value="M">Male</option>
+        <option value="F">Female</option>
+    </select><br>
+
+    <label for="select2">select which cours do you want: </label><br>
+    <select name="course" id="select2">
+        <option value="web">Web development</option>
+        <option value="game">Game development</option>
+    </select><br><br>
+
+    <input type="submit"  id="submit">
+
+
+    </b>
+</body>
+</html>

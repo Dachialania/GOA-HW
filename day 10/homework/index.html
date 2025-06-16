@@ -1,0 +1,46 @@
+<!-- 2) ჩამოწერეთ ყველა ფორმატირების თეგი, რომლებიც დღეს ვისწავლეთ. თითოეულს მიუწერეთ თუ რა დანიშნულება აქვს, ასევე დაყავით ისინი ორ კატეგორიად :
+• Semantic (სემანტიკური) - სემანიტიკური ისეთი თეგებია რომელსაც ერთი შეხედვით მიხვდები მის format ს და მნიშვნელობას
+<strong></strong>
+<button></button>
+და კიდევ ბევრი
+
+• Non-semantic (არასემანტიკური) არასენანიტიკურია რომლებიც სიმბოლოებით აღინიშნება მაგალითად:
+<b></b>
+<u></u>
+<i></i>
+<a></a>
+
+3) დაწერეთ თუ რა განსხვავებაა სემანტიკურ და არა სემანტიკურ თეგებს შორის.
+სემანიტიკურს აქვს format და მნიშვნელობა და არასემანიტიკური აღინიშნება სიმბოლოებით როგორც ზემოთ არის ნაჩვენები
+
+5) დეტალურად ახსენით თუ რატომ ვიყენებთ <a> თეგთან "target" ატრიბუტს.
+<a> თეგთან იმიტომ ვიყენებთ targeT ატრიბუტს რომ ლინკის გახსნის დროს გადაგვიყვანოს სხვა page - ზე 
+
+6) შექმენით Multi-page Website -> GOA-ს Hackathon-ის შესახებ.
+
+პირველი გვერდი იყოს Home page, სადაც ძირითად ინფორმაციას დაწერთ ამ Event-ის შესახებ;
+მეორე გვერდი უნდა იყოს About Us, სადაც ჩვენი აკადემიის შესახებ დაიტანთ ინფორმაციას;
+მესამე გვერდი იყოს Contact. ამ გვერდზე <a> თეგების მეშვეობით ჩასვით GOA_ს Facebook და Instagram გვერდების ლინკები. ამ შემთხვევაში გამოიყენეთ target = "_blank".
+
+ზემოთ ჩამოთვლილი ყველა გვერდი ერთმანეთთან დააკავშირეთ ანალოგიურად, როგორც გაკვეთილზე გავაკეთე. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOA hackathons</title>
+</head>
+<body>
+    <h1><b>HOME PAGE</b></h1>
+    <h2>GOA-oriented academy</h2><br>
+    <img src="./goa.jpg" width="250px" alt="GOA-oriented academy">
+    <p>GOA is the best academy,There are many activities going on in Goa. Every two months,
+         a hackathon is held where children participate in competitions, and they are very happy about it.</p>
+         <p><b>if you want more information, go to the next page.</b></p>
+
+         <a href="./index2.html" target="_blank"><button><b><i><u>about us</u></i></b></button></a>
+         <a href="./index3.html" target="_blank"><button><b><i><u>contact</u></i></b></button></a>
+</body>
+</html>
