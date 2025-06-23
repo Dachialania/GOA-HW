@@ -9,21 +9,8 @@
 
 # 3) გამოიტანეთ მოცემული ცვლადიდან სიტყვა GOA. (Output ნდა იყოს space-ების გარეშე)
 
-sentence = "GOA is the best"
-print(sentence[0:3])
-
-# არ გააკეთოთ ასე:
-# print(sentence[0])
-# print(sentence[1])
-# print(sentence[2])
-
-# ან ასე:
-# print(sentence[0]),print(sentence[1]),print(sentence[2])
-
-
-# 3) გამოიტანეთ მოცემული ცვლადიდან სიტყვა GOA. (Output ნდა იყოს space-ების გარეშე)
-
 # sentence = "GOA is the best"
+# print(sentence[0:3])
 
 # არ გააკეთოთ ასე:
 # print(sentence[0])
@@ -32,3 +19,13 @@ print(sentence[0:3])
 
 # ან ასე:
 # print(sentence[0]),print(sentence[1]),print(sentence[2])
+
+
+
+
+# ახსენით რატომ გამოიტანს მოცემული კოდი ერორს?
+
+# month = "august" 
+# month[0] = "A"
+# იმიტომ რომ სტრინგებში ვერ მოხდება ცვლა
+ 
