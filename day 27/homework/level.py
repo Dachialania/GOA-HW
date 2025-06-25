@@ -28,11 +28,12 @@
 # შემდეგ თქვენ პროდუქტის დასახელება უნდა გამოუტანოთ ტერმინალში. (პირობაში დეტალები არ მიწერია, ასერომ ეცადეთ რაც შეიძლება დახვეწილი და მომხმარებლისთვის
 # მოსახერხებელი პროგრამა შექმნათ)
 # Vending_machine = ["phone","TV","mouse","keyboard","chair","desk","glasses","umbrella","coca-cola","treasure"]
+# print(Vending_machine)
 # number = int(input("ჩაწერეთ ამოსარჩევი ციფრი: "))
 # for i in range(10):
 #     if i == number:
 #         print(Vending_machine[i])
-         
+  
 # 5) შექმენით Fruits სია: 
 # Fruits = ["Strawberry", "Mango", "Melon", "Cherry"]
 # სიის მეოთხე ელემეტი ჩაანაცვლეთ "Watermelon"-ით, მეორე ელემენტი კი "Pear"-ით. ტერმინალში დაბეჭდეთ სიის თავდაპირველი და საბოლოო სახე.
@@ -44,6 +45,9 @@
 
 
 # 6) რამდენიმე ცვლადში შინახეთ სხვადასხვა სიტყვა. ამ სიტყვების გამოყენებით ააწყვეთ ერთი მთლიანი სიტყვა. მაგ.
-# ("Moon", "light" -- "Moonlight")
+# ("Moon", "light"  "Moonlight")
 # sentence = ["დაჩი", "16", "სენაკში", "ალანია"]
 # print(f"ჩემი სახელია {sentence[0]} და ჩემი გვარი არის {sentence[3]}, მე ვარ {sentence[1]} წლის და ვცხოვრობ ქალაქ {sentence[2]} ")
+
+while True:
+    print("senaki")
