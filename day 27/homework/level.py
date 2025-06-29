@@ -49,5 +49,3 @@
 # sentence = ["დაჩი", "16", "სენაკში", "ალანია"]
 # print(f"ჩემი სახელია {sentence[0]} და ჩემი გვარი არის {sentence[3]}, მე ვარ {sentence[1]} წლის და ვცხოვრობ ქალაქ {sentence[2]} ")
 
-while True:
-    print("senaki")

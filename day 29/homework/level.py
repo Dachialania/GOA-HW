@@ -29,7 +29,7 @@
 
 # 8) შეინახეთ ცვლადში "Hello, World!". Slicing-ის საშუალებით ამ სტრინგიდან  ამოიღეთ ცალკე სიტყვა "Hello" და ცალკე სიტყვა "World!". 
 # შეინახეთ ისინი ცვლადებში და გამოიტანეთ ეკრანზე.
-word = "Hello, World!"
-W1 = word[:6]
-w2 = word[6:]
-print(W1,w2)
+# word = "Hello, World!"
+# W1 = word[:6]
+# w2 = word[6:]
+# print(W1,w2)
