@@ -52,13 +52,13 @@
 
 #    • ამოჭერით სტრინგი შუა სამი ასო.
 # word = "Programming"
-# word1 = word[3:7]
+# [word1 = word3:7]
 # print(word1)
 
 #    • შეაერთეთ მხოლოდ ლუწ ინდექსებზე მყოფი ასოები.
-# word = "Programming"
-# word1 = word[::2]
-# print(word1)
+word = "Programming"
+word1 = word[1] + word[3] + word[5] + word[7] + word[9]
+print(word1)
 # 7) შექმენით ცვლადი alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 #  შექმენი სიტყვა "python" ამ სტრინგიდან ინდექსების კომბინაციით.
