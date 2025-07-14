@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color: green;
+}
+
+h2{
+    color: brown;
+}
+
+img{
+    border:1px solid black;
+    border-radius:4px;
+}
+
+p{
+    color:chocolate
+}

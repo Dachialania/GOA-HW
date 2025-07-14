@@ -57,14 +57,14 @@
 # The aritchmetic mean of this list is: ...
 # The sum of all numbers in this list is: ...
  
-number = [1,2,3,4,5,6,7,8]
-sum_of_number = 0
-count = 0
-for i in number:
-    sum_of_number += i
-    count += 1 
-    result = sum_of_number / count
-    print(f'The aritchmetic mean of this list is: {result} ')
-    print(f'The sum of all numbers in this list is: {sum_of_number}')
+# number = [1,2,3,4,5,6,7,8]
+# sum_of_number = 0
+# count = 0
+# for i in number:
+#     sum_of_number += i
+#     count += 1 
+#     result = sum_of_number / count
+#     print(f'The aritchmetic mean of this list is: {result} ')
+#     print(f'The sum of all numbers in this list is: {sum_of_number}')
         
     

@@ -1,0 +1,34 @@
+header{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #393E46 ;
+    text-align: center;
+}
+
+a{
+    color: #948979;
+}
+
+header h1{
+    color: darkgrey;
+}
+
+main{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -20px;
+    background-color: #948979;
+}
+
+img{
+    border: 2px solid ;
+    border-radius: 5px;
+}
+
+footer{
+    margin-top: -16px;
+    background-color: #393E46 ;
+    text-align: center;
+}
+
+footer p{
+    color: #948979;
+}

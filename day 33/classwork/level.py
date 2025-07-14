@@ -1,14 +1,14 @@
 # 1) მომხმარებელს შემოატანინეთ 5 რიცხვი, რომლებსაც შემდეგ სიაში შენახავთ. Indexing-ს გამოყენებით გამოიტანეთ სიის ორი შუა ელენეტი.
-num1 = int(input("Enter your number: "))
-num2 = int(input("Enter your number: "))
-num3 = int(input("Enter your number: "))
-num4 = int(input("Enter your number: "))
-num5 = int(input("Enter your number: "))
-num6 = int(input("Enter your number: "))
+# num1 = int(input("Enter your number: "))
+# num2 = int(input("Enter your number: "))
+# num3 = int(input("Enter your number: "))
+# num4 = int(input("Enter your number: "))
+# num5 = int(input("Enter your number: "))
+# num6 = int(input("Enter your number: "))
 
-numbers = [num1, num2, num3, num4, num5, num6]
-print(numbers)
-print(numbers[2:4])
+# numbers = [num1, num2, num3, num4, num5, num6]
+# print(numbers)
+# print(numbers[2:4])
 # 2) მოცემული გაქვთ ცვლადი 
 # alphabet ="abcdefghijklmnopqrstuvwxyz"
 
