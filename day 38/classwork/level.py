@@ -14,9 +14,9 @@
 # 2) ცვლადში შეინახეთ პაროლი. შემდეგ მომხმარებელს შემოატანინეთ პაროლი. იქამდე გამოუტანეთ
 # "incorrect password" სანამ მომხმარებელი სწორად არ შემოიტანს პაროლს. სწორად შემოტანის შემთხვევაში გამოიტანეთ "correct password" (გამოიყენეთ while loop)
 
-password = "1234"
-password1 = (input("Enter your password: "))
-while password != password1:
-    print("incorrect password")
-    password2 = input("Enter your password: ")
-print("correct password")
+# password = "1234"
+# password1 = (input("Enter your password: "))
+# while password != password1:
+#     print("incorrect password")
+#     password2 = input("Enter your password: ")
+# print("correct password")
