@@ -12,11 +12,11 @@
 # -- for loop --
 
 # value = [1,2.5,"string",True,25,"blabla",False,25.5]
-# boolean = []
 # for i in value:
 #     if type(i) == bool:
-#         boolean = boolean + [i]
-#     print(boolean)
+#         print(i)
+
+
 # 5) შექმენთი სია [2, 4, 6, 8, 10].
 # გადაუარეთ for ციკლით და სიის ელემენტების გაორმაგებული მნიშვნელობები ეკრანზე დაბეჭდეთ.
 # numbers = [2, 4, 6, 8, 10]
@@ -50,15 +50,43 @@
 
 # -- Indexing & Slicing --
 
-num = 1
-while num <= 30:
-    if num % 2 == 0:
-        print(num)
-
+# num = 1
+# while num <= 30:
+#     if num % 2 == 0:
+#         print(num)
+#     num += 1
 # 9) დაწერეთ პროგრამა, სადაც მომხმარებელს აარჩევინებთ ნებისმიერ სტრინგს, შემდეგ კი მოცემული სტრინგიდან მხოლოდ კენტ ინდექსზე მდგომ ელემენტებს გამოიტანს ტერმინალში.
 
 # -- Conditional Statements --
+# guest = input("choose a string: ")
+
+# index = 0
+# for i in guest:
+#     if index % 2 != 0:
+#         print(i)
+#     index += 1
 
 # 10) დაწერეთ პროგრამა, რომელიც შეადარებს მომხმარენლის მიერ შემოტანილ ორ რიცხვს და დაბეჭდავს, რომელი უფრო მეტია ან ტოლია.
+# Guest1 = int(input("Enter your number: "))
+# Guest2 = int(input("Enter your number: "))
 
-# 11) მომხმარებელს შემოატანინეთ ასაკი. გამოიყენეთ პირობითი განცხადებები რომ შექმნათ პროგრამა, სადაც - იმ შემთხვევაში თუ User იქნება 13 წელზე ნაკლენბი ასაკის გამოიტანთ 'You are a child'. თუ იქნება 13 წელზე მეტი, მაგრამ 18-ზე ნაკლები ასაკის დაუბეჭდეთ 'You are a teen'. თუ 18 წელზე მეტის იქნება დაუბეჭდეთ 'You are an adult.'
+# if Guest1 > Guest2:
+#     print("პირველი მეტია მეორეზე")
+# elif Guest1 < Guest2:
+#     print("მეორე მეტია პირველზე")
+# else:
+#     print("ორივე ტოლია")
+
+
+# 11) მომხმარებელს შემოატანინეთ ასაკი. გამოიყენეთ პირობითი განცხადებები რომ შექმნათ პროგრამა, სადაც - 
+# იმ შემთხვევაში თუ User იქნება 13 წელზე ნაკლენბი ასაკის გამოიტანთ 'You are a child'. თუ იქნება 13 წელზე მეტი, მაგრამ 18-ზე ნაკლები ასაკის დაუბეჭდეთ 'You are a teen'. 
+# თუ 18 წელზე მეტის იქნება დაუბეჭდეთ 'You are an adult.'
+
+# Guest = int(input("Enter your age: "))
+# if Guest < 13:
+#     print("you are a child")
+# elif Guest > 13 and Guest < 18:
+#     print("you are a teen")
+# elif Guest > 18:
+#     print("you are a adult")
+    
