@@ -1,0 +1,42 @@
+<!-- 1) კომენტარის სახით დაალაგეთ მოცემული სელექტორები პრიორიტეტების მიხედვით:
+Class, ID, Element, Inline
+1.inline
+2.id
+3.class
+4.element
+
+2) შექმენით ვებ-საიტი: დაამატეთ 3 ფოტო, 5 პარაგრაფი, 2 Heading-ი და 2 ღილაკი.
+
+ფოტოებიდან 2-ს მიანიჭეთ წითელი ფერის double ბორდერი და ზომა: 200 x 200. 
+ხოლო დრჩენილ 1 ფოტოს მიანიჭეთ იასამნისფერი solid ბორდერი და ზომა: 150 x 150. 
+
+საიტზე დამატებულ 3 პარაგრაფს მიეცით ცისფერი ფერი, 2-ს კი ნარინჯისფერი ფერი.ხუთივე პარაგრაფი გადაიტანეთ ცენტრში.
+
+ორივე Heading-ს მიეცით ლურჯი dotted ბორდერი, ტექსტის ფერი -- იისფერი და გადაიტანეთ ცენტრში.
+
+ღილაკები კი ინდივიდუალურად გასტილეთ. ამ ორ ღილაკს ჰქონდეს ერთმანეთისგან სხვადასხვა ფერი, ბორდერი და ზომა.
+
+(ამ დავალებების შესასრულებლად გამოიყენეთ id-ები და class-ები. ელემენტები გასტილეთ Exrernal CSS-ში.) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day 41</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="photo" src="https://avatars.mds.yandex.net/i?id=9323d2fd370926ff41fb03e8f303b173241e65d1-12519862-images-thumbs&n=13" width="250px">
+    <img class="photo" src="https://avatars.mds.yandex.net/i?id=5f7b707b9382f38ed2a9cc250639bd1d276105e0-5541778-images-thumbs&n=13" width="250px">
+    <img id="photo1" src="https://avatars.mds.yandex.net/i?id=ea37c708c5ce62c18b1bdd46eee2f008c6dce42c-4546260-images-thumbs&n=13" width="250px">
+    <h1 class="heading">Hello world</h1>
+    <h1 class="heading">Hello, world</h1>
+    <button class="button">click her</button>
+    <button class="button">click her</button>
+    <p class="paragraph">paragraph1</p>
+    <p class="paragraph">paragraph2</p>
+    <p class="paragraph">paragraph3</p>
+    <p class="paragraph1">paragraph4</p>
+    <p class="paragraph1">paragraph5</p>
+</body>
+</html>

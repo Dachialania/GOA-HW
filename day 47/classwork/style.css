@@ -1,0 +1,13 @@
+/* საიტზე დაამატეთ 3 სხვადასხვა პარაგრაფი. Google fonts-იდან თქვენი CSS-ის ფაილში დააიმპორტეთ თქვენთვის სასურველი 3 განსხვავებული შრიფტის სტილი და სამივე პარაგრაფს გაუწერეთ. */
+
+#box1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#box2{
+    font-family: sans-serif;
+}
+
+#box3{
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,22 @@
+.parent1{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.child1{
+    background-color: red;
+    width: 50%;
+    height: 50%;
+}
+
+.parent2{
+    width: 300px;
+    height: 300px;
+    font-size: 35px;
+}
+
+.parent2 p{
+    background-color: yellow;
+    font-size: 150%;
+}

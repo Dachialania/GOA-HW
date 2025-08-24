@@ -1,0 +1,22 @@
+#box1{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+}
+
+p{
+    text-align: center;
+    font-size: 100%;
+    color: aliceblue;
+}
+ 
+#box2{
+    background-color: purple;
+    width: 350px;
+    height: 350px;
+}
+
+img{
+    width:  150px;
+    height: 150px;
+}

@@ -1,0 +1,30 @@
+body{
+    background-color: darkgray;
+}
+form{
+    margin-top: 500px;
+    margin-left: 1300px;
+    border: 2px solid white;
+    width: 250px;
+    padding: 18px;
+    color: white;
+}
+
+form{
+    background-color: darkcyan;
+}
+
+input{
+    width: 250px;
+    background-color: darkcyan;
+}
+
+input:active{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+input:hover{
+    font-size: 20px;
+    font-weight: 600;
+}
